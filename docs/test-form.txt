@@ -1,0 +1,9 @@
+Nombre: Adrian
+Apellido: Quesada
+Banda: Black Pumas
+
+Genero: Psychedelic soul
+
+Publicacion: 2019
+
+Portada (url): https://m.media-amazon.com/images/W/IMAGERENDERING_521856-T1/images/I/61iYFiqfMAL._SL1200_.jpg

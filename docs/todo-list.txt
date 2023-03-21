@@ -1,0 +1,4 @@
+añadir discos +
+borrar discos +
+ordenar discos +
+mostrar info discos +

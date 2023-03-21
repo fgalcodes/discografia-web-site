@@ -1,0 +1,67 @@
+[
+    {
+        "nombre": "Demon Days",
+        "interprete": {
+            "nombre": "Damon",
+            "apellido": "Albarn",
+            "banda": "Gorillaz"
+        },
+        "publicacion": "2005",
+        "genero": "Rock",
+        "portada": "https://m.media-amazon.com/images/W/IMAGERENDERING_521856-T1/images/I/71lix6+VfWL._SL1425_.jpg",
+        "localizacion": 1,
+        "prestado": false
+    },
+    {
+        "nombre": "Racine carrée",
+        "interprete": {
+            "nombre": "",
+            "apellido": "",
+            "banda": "Stromae"
+        },
+        "publicacion": "2013",
+        "genero": "Electronica",
+        "portada": "https://m.media-amazon.com/images/W/IMAGERENDERING_521856-T1/images/I/71aPVVuJsUL._SX522_.jpg",
+        "localizacion": 2,
+        "prestado": false
+    },
+    {
+        "nombre": "Travelling Without Moving",
+        "interprete": {
+            "nombre": "",
+            "apellido": "",
+            "banda": "Jamiroquai"
+        },
+        "publicacion": "1996",
+        "genero": "Funk Jazz",
+        "portada": "https://m.media-amazon.com/images/I/81lIh3EiXaL._SL1500_.jpg",
+        "localizacion": 3,
+        "prestado": false
+    },
+    {
+        "nombre": "The Police Every Breath You Take",
+        "interprete": {
+            "nombre": "",
+            "apellido": "",
+            "banda": "The Police"
+        },
+        "publicacion": "1986",
+        "genero": "Rock",
+        "portada": "https://m.media-amazon.com/images/W/IMAGERENDERING_521856-T1/images/I/510soXDZflL._SX466_.jpg",
+        "localizacion": 4,
+        "prestado": false
+    },
+    {
+        "nombre": "A Head Full of Dreams",
+        "interprete": {
+            "nombre": "",
+            "apellido": "",
+            "banda": "Coldplay"
+        },
+        "publicacion": "2015",
+        "genero": "Pop Rock",
+        "portada": "https://m.media-amazon.com/images/W/IMAGERENDERING_521856-T1/images/I/A1p7bWyAvmL._SL1500_.jpg",
+        "localizacion": 5,
+        "prestado": false
+    }
+]

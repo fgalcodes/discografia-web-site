@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* border: 1px solid rgba(255, 0, 0, .5); */
+    font-family: 'Rubik', sans-serif;
+
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 3em 2em;
+}
+
+header div {
+    padding-top: 1em;
+}
+
+section div {
+    padding-top: 1em;
+}
+
+.albumes-cards {
+    padding-top: 2em;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2em;
+    padding-left: 1.8em;
+}
+
+.disco-card {
+    padding-top: 0;
+
+    width: 280px;
+    text-align: left;
+
+    position: relative;
+
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
+
+.disco-card h3 {
+    padding: 0 15px;
+    font-weight: 500;
+}
+
+
+.disco-card div {
+    display: flex;
+    justify-content: space-between;
+    padding: 1em 15px;
+}
+
+h1 {
+    font-size: 48px;
+    font-family: 'Rubik Mono One', sans-serif;
+}
+
+h3 {
+    font-size: 26px;
+}
+
+.buscador input,
+.formulario-disco input {
+    box-sizing: border-box;
+
+    padding: 2em;
+    width: 460px;
+    height: 60px;
+
+    background: #FDFDFD;
+    border: 1px solid #E4E4E4;
+    border-radius: 1.2em;
+
+}
+
+.buscador button,
+.formulario-disco button {
+    width: 110px;
+    height: 60px;
+
+    background: #FDFDFD;
+    border: 1px solid #E4E4E4;
+    border-radius: 1.2em;
+
+    font-weight: 500;
+
+    color: #868686;
+}
+
+.buscador-selector {
+    padding-left: 1em;
+    width: 90px;
+    height: 60px;
+
+    background: #FDFDFD;
+    border: 1px solid #E4E4E4;
+    border-radius: 1.2em;
+
+    color: #868686;
+}
+
+.navegador {
+    position: absolute;
+    top: 1em;
+    left: 90%;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.navegador button,
+.navegador select {
+    background: none;
+    border: none;
+    color: #868686;
+
+
+}
+
+.navegador button {
+    width: 90px;
+    height: 40px;
+
+    background: #FDFDFD;
+    border: 1px solid #E4E4E4;
+    border-radius: .8em;
+}
+
+
+.formulario-disco {
+    padding-top: 2em;
+}
+
+.formulario-disco div {
+    padding-top: 1em;
+}
+
+footer{
+    background-color:#26272b;
+    color: #E4E4E4;
+}
+.footer-text {
+    font-size: 14px;
+    padding: 2.8em 4em;
+}
+.footer-text h4 {
+    font-size: 24px;
+}
+
+.footer-text p:first-of-type{
+    border-bottom: 1px solid #E4E4E4;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+.footer-text p:last-of-type{
+    padding-top: 1em;
+    text-align: center;
+    font-weight: 700;
+}

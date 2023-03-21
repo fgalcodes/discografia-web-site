@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>@import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&family=Rubik:wght@400;500;700&display=swap');</style> 
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="#">
+    <script src="obj/interprete.js"></script>
+    <script src="obj/disco.js"></script>
+    <script src="obj/discografia.js"></script>
+    <title>Fabian Galindo</title>
+</head>
+
+<body>
+    <main>
+        <header>
+            <h1>Discografia</h1>
+            <div id="buscador-disco" class="buscador">
+                <!-- <label>Buscador </label> -->
+                <select class="buscador-selector">
+                    <option value="Info">Info</option>
+                    <option value="Prestar">Prestar</option>
+                </select>
+                <input type="text" value="Buscador">
+                <button onclick="AccionBuscador()">Seleccionar</button>
+            </div>
+        </header>
+    
+        <nav class="navegador">
+            <button onclick="OrdenarAlbumes()">Ordenar</button>
+            <select id="orden-discos" class="navegador-orden">
+                <option value="nombre">Nombre</option>
+                <option value="publicacion">Publicacion</option>
+                <option value="genero">Genero</option>
+                <option value="girar">Girar</option>
+            </select>
+        </nav>
+    
+        <section id="albumes-info"></section>
+        <section id="albumes" class="albumes-cards"></section>
+    
+        <form id="agregar-disco" class="formulario-disco">
+            <div id="nombre-album">
+                <input type="text" value="Album">
+            </div>
+                <div id="nombre-interprete-album">
+                    <input type="text" value="Nombre">
+                </div>
+                <div id="apellido-interprete-album">
+                    <input type="text" value="Apellido">
+                </div>
+                <div id="banda-interprete-album">
+                    <input type="text" value="Banda">
+                </div>
+            <div id="publicacion-album">
+                <input type="text" value="Lanzamiento">
+            </div>
+            <div id="genero-album">
+                <input type="text" value="Género">
+            </div>
+            <div id="portada-album">
+                <input type="text" value="Portada (url)">
+            </div>
+            <div id="localizacion-album">
+                <input type="text" value="Localizacion">
+            </div>
+            <div>
+                <button type="submit">Añadir</button>
+            </div>
+        </form>
+
+    </main>
+    <footer>
+        <div class="footer-text">
+            <h3>Recuerda</h3>
+            <p>Cada canción, cada álbum y cada playlist es un capítulo de nuestra historia de vida. Así que celebremos la belleza de la música manteniéndola bien organizada, creaando un mundo donde la música no sea solo un ruido de fondo, sino una experiencia significativa y enriquecedora. Abracemos la genialidad de la organización musical y difundamos el amor y la alegría de la música a todos los que nos rodean.</p>
+            <p>Copyright &copy; 2023 &#x1F680 Fabián Galindo.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
